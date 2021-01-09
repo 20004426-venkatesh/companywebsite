@@ -21,9 +21,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home , name='home'),
     path('home/', views.home , name='home'),
-    path('products/', views.products , name='home'),
+    path('products/', views.products , name='products'),
     path('people/', views.people , name='people'),
+    path('contact us/', views.contactus , name='contact us')
+    
 ]
-
 
 

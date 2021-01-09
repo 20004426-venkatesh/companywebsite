@@ -12,4 +12,9 @@ def products(request):
 
 def people(request):
     context = {}
-    return render(request, 'website/people.html', context)        
+    return render(request, 'website/people.html', context)
+
+def contactus(request):
+    context = {}
+    return render(request, 'website/contact us.html', context)
+
