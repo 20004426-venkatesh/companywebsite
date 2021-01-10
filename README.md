@@ -84,22 +84,99 @@ Publish the website in the given URL.
 {% extends "website/base.html" %}
 
 {% block content %}
-    <div class="productcontent">    
+     <div class="productcontent">    
     <h1>Our Premium Products</h1>
     <div class="productitems">
         <div class="productitem"> 
             <div class="itemimage">
-            <img src="/static/img/c1.jpg" alt="product image">
+            <img src="/static/img/products/buds.jpg" alt="product image">
             </div>
-            <div class="itemname">4GB DDRA4 laptop memory</div>
+            <div class="itemname">apple</div>
             <div class="itemprice">Price: Rs.2000.00 </div>
         </div>
         <div class="productitem"> 
             <div class="itemimage">
-            <img src="/static/img/c2.jpg"  alt="product image">
+            <img src="/static/img/products/download.jpg"  alt="product image">
             </div>
-            <div class="itemname">1TB Laptop HDD</div>
+            <div class="itemname">mk board</div>
             <div class="itemprice">Price: Rs.5000.00 </div>
+        </div>
+        <div class="productitem"> 
+            <div class="itemimage">
+            <img src="/static/img/products/earphones.jpg"  alt="product image">
+            </div>
+            <div class="itemname">apple</div>
+            <div class="itemprice">Price: Rs.16,000.00 </div>
+        </div>
+        <div class="productitem"> 
+            <div class="itemimage">
+            <img src="/static/img/products/grafic.jpg"  alt="product image">
+            </div>
+            <div class="itemname">4 gb grafic</div>
+            <div class="itemprice">Price: Rs.10,000.00 </div>
+        </div>
+        <div class="productitem"> 
+            <div class="itemimage">
+            <img src="/static/img/products/hdd.jpg"  alt="product image">
+            </div>
+            <div class="itemname">1 tb </div>
+            <div class="itemprice">Price: Rs.10,000.00 </div>
+        </div>
+        <div class="productitem"> 
+            <div class="itemimage">
+            <img src="/static/img/products/intel core.jpg"  alt="product image">
+            </div>
+            <div class="itemname">i9 core</div>
+            <div class="itemprice">Price: Rs.3500.00 </div>
+        </div>
+        <div class="productitem"> 
+            <div class="itemimage">
+            <img src="/static/img/products/iota board.jpg"  alt="product image">
+            </div>
+            <div class="itemname">iot board</div>
+            <div class="itemprice">Price: Rs.2000.00 </div>
+        </div>
+        <div class="productitem"> 
+            <div class="itemimage">
+            <img src="/static/img/products/keybord.jpg"  alt="product image">
+            </div>
+            <div class="itemname">backlit key board</div>
+            <div class="itemprice">Price: Rs.12,999</div>
+        </div>
+        <div class="productitem"> 
+            <div class="itemimage">
+            <img src="/static/img/products/mouse.jpg"  alt="product image">
+            </div>
+            <div class="itemname">Gigabyte NVIDIA GeForce GT 710 2 GB DDR3</div>
+            <div class="itemprice">Price: Rs.3000.00 </div>
+        </div>
+        <div class="productitem"> 
+            <div class="itemimage">
+            <img src="/static/img/products/pendrive.jpg"  alt="product image">
+            </div>
+            <div class="itemname">500 gb pendrive(samsung)</div>
+            <div class="itemprice">Price: Rs.1500.00</div>
+        </div>
+        <div class="productitem"> 
+            <div class="itemimage">
+            <img src="/static/img/products/powerbank.jpg"  alt="product image">
+            </div>
+            <div class="itemname">apple 6000mah power bank</div>
+            <div class="itemprice">Price: Rs.12,000.00 </div>
+        </div>
+        <div class="productitem"> 
+            <div class="itemimage">
+            <img src="/static/img/products/sdd.jpg"  alt="product image">
+            </div>
+            <div class="itemname">512 GB</div>
+            <div class="itemprice">Price: Rs.5,000 </div>
+        </div>
+        <div class="productitem"> 
+            <div class="itemimage">
+            <img src="/static/img/products/speaker.jpg"  alt="product image">
+            </div>
+            <div class="itemname">dual speakers</div>
+            <div class="itemprice">Price: Rs.265.00 </div>
         </div>
     </div>
     </div>
@@ -144,21 +221,18 @@ return true; }
 </table>
 </form>
 {% endblock  %}
-```
-## OUTPUT VALIDATION REPORT:
-![output](./static/img/output1.jpg)
-
-![output](./static/img/)
- 
-
-
+``` 
 ## OUTPUT:
 ![output](./static/img/output4.png.jpg)
 
 ![output](./static/img/output5.png.jpg)
  
- ![output](./static/img/output6.png.jpg)
+![output](./static/img/output6.png.jpg)
 
-  ![output](./static/img/output7.png.jpg)
+![output](./static/img/output7.png.jpg)
+
+## CODE VALIDATOR:
+![output](./static/img/output3.gif)
+
 ## RESULT:
 Thus a website is designed for the chip manufacturing company and is hosted in the URL http://demo2.student.saveetha.in:8000/. HTML code is validated.
